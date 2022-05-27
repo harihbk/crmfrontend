@@ -1,0 +1,19 @@
+
+.containerheight{
+    min-height: 100vh;
+}
+.button{
+    width: 100%;
+}
+.fieldspadding{
+    padding-bottom: 30px;
+}
+.MuiTextField-root{
+    width: 100%;
+}
+.error{
+    color: red;
+}
+form {
+    width: 80%;
+}

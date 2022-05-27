@@ -1,0 +1,7 @@
+.sideMenu .MuiListItem-root:focus{
+    background-color: rgb(216, 138, 22);
+    color: #fff;
+}
+.sideMenu .MuiListItem-root:focus .MuiListItemIcon-root{
+    color: #fff;
+}

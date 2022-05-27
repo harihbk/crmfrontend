@@ -1,0 +1,77 @@
+.addButton{
+    background-color:darkcyan;
+    color: #fff;
+    max-width: 170px;
+}
+.custCard{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px #eee;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+.userTable .ag-header-cell{
+    background-color: #dfdfdf;
+    border-right: 1px solid #eeee;
+}
+.userTable .ag-header-cell:last-child  .ag-header-cell-label{
+    justify-content: center;
+ }
+ .userTable  .ag-theme-alpine .ag-ltr .ag-cell:not(:last-child){
+     text-align: left !important;
+ }
+ .userTable .ag-theme-alpine .ag-paging-panel{
+    justify-content: space-between !important;
+    /* flex: 1; */
+    width: 100%;
+    
+}
+.userTable .ag-paging-page-summary-panel .ag-paging-button {
+    background-color: #33a152;
+    width: 25px;
+    padding: 4px;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+.userTable .ag-paging-page-summary-panel .ag-paging-button.ag-disabled {
+    opacity: .4;
+}
+.actionBtnGrp .MuiIconButton-root.edit{
+    color: darkgreen;
+}
+
+.actionBtnGrp .MuiIconButton-root.del{
+    color: rgb(248, 73, 73);
+}
+.actionBtnGrp .MuiIconButton-root.info{
+    color: rgb(237 162 2);
+}
+.custModal .MuiDialog-paper {
+    border-radius: 15px;
+}
+.custModal .modalAction{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.modalAction > button{
+    max-width: 100px;
+    width: 100%;
+}
+.submitBtn{
+    background-color: #33a153 !important;
+    color: #fff !important;
+}
+.cancelBtn{
+    color: #33a153 !important;
+    border-color: #33a153 !important;
+}
+.custCard .MTableToolbar-root-160{
+    padding-left: 0;
+}
+.modalTitle{
+    text-align: left; 
+    padding-bottom:'4';
+    background-color:  '#5f5f5f';
+    color: '#fff' 
+}
